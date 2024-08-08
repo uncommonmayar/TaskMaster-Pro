@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Taskmaster Pro - Manage your tasks effectively with our React and Redux powered application." />
+    <meta name="keywords" content="task management, productivity, React, Redux" />
+    <meta name="author" content="Mayar" />
+
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="Taskmaster Pro" />
+    <meta property="og:description" content="Manage your tasks effectively with Taskmaster Pro, powered by React and Redux." />
+    <meta property="og:image" content="public/TaskMaster Pro Logo.png" />
+    <meta property="og:url" content="https://taskmasterpro.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Taskmaster Pro" />
+    <meta name="twitter:description" content="Manage your tasks effectively with Taskmaster Pro, powered by React and Redux." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/TaskMaster Pro Logo.png" />
+
+    <!-- Favicon and Apple Touch Icon -->
+    <link rel="icon" href="public/TMP Favicon.svg" />
+    <link rel="apple-touch-icon" href="public/TMP Favicon.svg" />
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Link to web fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <title>Taskmaster Pro</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="%PUBLIC_URL%/TaskMaster Pro Logo.png" alt="Taskmaster Pro Logo" />
+        <nav>
+          <ul id="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="/login" class="button">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <section class="hero">
+      <div>
+        <h1>Welcome to Taskmaster Pro</h1>
+        <p>Manage your tasks efficiently and effectively.</p>
+        <a href="/register">Sign Up Today</a>
+      </div>
+    </section>
+
+    <div id="root"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <i class="fas fa-tasks fa-3x"></i>
+            <h3>Task Management</h3>
+            <p>Keep track of all your tasks in one place.</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-chart-line fa-3x"></i>
+            <h3>Analytics</h3>
+            <p>Gain insights into your productivity.</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-users fa-3x"></i>
+            <h3>Team Collaboration</h3>
+            <p>Work with your team seamlessly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Taskmaster Pro is dedicated to helping teams manage their tasks efficiently and improve productivity.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for more information.</p>
+        <a href="mailto:info@taskmasterpro.com" class="button">Email Us</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Taskmaster Pro. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
